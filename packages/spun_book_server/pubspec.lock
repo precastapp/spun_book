@@ -318,9 +318,11 @@ packages:
   spun_book_domain:
     dependency: "direct main"
     description:
-      path: "../spun_book_domain"
-      relative: true
-    source: path
+      path: "packages/spun_book_domain"
+      ref: main
+      resolved-ref: "7693c70d78455f18a065b5d64a5e10c0ef76604b"
+      url: "https://github.com/precastapp/spun_book.git"
+    source: git
     version: "1.0.0"
   stack_trace:
     dependency: transitive

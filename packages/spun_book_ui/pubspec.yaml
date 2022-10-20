@@ -1,0 +1,25 @@
+name: spun_book
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  spun_book_domain:
+    git: 
+      url: https://github.com/precastapp/spun_book.git
+      path: packages/spun_book_domain
+      ref: main
+  core_ui:
+    git: 
+      url: https://github.com/precastapp/core_module.git
+      path: packages/core_ui
+      ref: main
+    
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
